@@ -1,0 +1,33 @@
+site_name: Комментарии к "Капиталу" К. Маркса
+site_author: Д. И. Розенберг
+site_description: Комментарии к "Капиталу" К. Маркса
+
+theme:
+  name: material
+  locale: ru
+
+plugins:
+  - search:
+      lang: ru
+
+markdown_extensions:
+  - footnotes
+  - pymdownx.arithmatex:
+      generic: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - index.md
+  - intro.md
+  - Комментарии к тому 1:
+      - volume1/index.md
+      - Товар и деньги:
+          - volume1/part1/index.md
+          - volume1/part1/chapter1.md
