@@ -1,14 +1,34 @@
 site_name: Комментарии к "Капиталу" К. Маркса
 site_author: Д. И. Розенберг
 site_description: Комментарии к "Капиталу" К. Маркса
+copyright: Д. И. Розенберг<br />Комментарии к "Капиталу" К. Маркса
+repo_url: https://github.com/marxlib/rozenberg_comments_capital
+repo_name: marxlib/rozenberg_comments_capital
 
 theme:
   name: material
-  locale: ru
+  language: ru
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
 
 plugins:
   - search:
       lang: ru
+  #- social
+
+extra:
+  generator: false
 
 markdown_extensions:
   - footnotes
@@ -26,6 +46,7 @@ extra_javascript:
 nav:
   - index.md
   - intro.md
+  - intro-author.md
   - Комментарии к тому 1:
       - volume1/index.md
       - Товар и деньги:
