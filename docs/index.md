@@ -3,9 +3,7 @@ search:
   exclude: true
 ---
 
-# Обложка
-
-![Комментарии к "Капиталу" К. Маркса](cover.jpg)
+# Комментарии к «Капиталу» К. Маркса
 
 ## Автор
 
@@ -15,4 +13,4 @@ search:
 
 ## Скачать
 
-- [Комментарии к "Капиталу" К. Маркса (DjVu)](./rozenberg_comments_to_capital.djvu)
+- [Комментарии к «Капиталу» К. Маркса (DjVu)](./rozenberg_comments_to_capital.djvu)

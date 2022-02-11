@@ -1,7 +1,7 @@
-site_name: Комментарии к "Капиталу" К. Маркса
+site_name: Комментарии к «Капиталу» К. Маркса
 site_author: Д. И. Розенберг
-site_description: Комментарии к "Капиталу" К. Маркса
-copyright: Д. И. Розенберг<br />Комментарии к "Капиталу" К. Маркса
+site_description: Комментарии к «Капиталу» К. Маркса
+copyright: Д. И. Розенберг<br />Комментарии к «Капиталу» К. Маркса
 repo_url: https://github.com/marxlib/rozenberg_comments_capital
 repo_name: marxlib/rozenberg_comments_capital
 
@@ -21,6 +21,13 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+  features:
+    - navigation.indexes
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
 
 plugins:
   - search:
@@ -44,11 +51,121 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 nav:
-  - index.md
-  - intro.md
-  - intro-author.md
-  - Комментарии к тому 1:
+  - Вступление:
+      - index.md
+      - Предисловие: intro.md
+      - Предисловие автора: intro-author.md
+  - Комментарии к I тому:
       - volume1/index.md
       - Товар и деньги:
           - volume1/part1/index.md
-          - volume1/part1/chapter1.md
+          - Товар: volume1/part1/chapter1.md
+          - Процесс обмена: volume1/part1/chapter2.md
+          - Деньги, или обращение товаров: volume1/part1/chapter3.md
+      - Превращение денег в капитал:
+          - volume1/part2/index.md
+          - Превращение денег в капитал: volume1/part1/chapter4.md
+      - Производство абсолютной прибавочной стоимости:
+          - volume1/part3/index.md
+          - Процесс труда и процесс возрастания стоимости: volume1/part1/chapter5.md
+          - Постоянный капитал и переменный капитал: volume1/part1/chapter6.md
+          - Норма прибавочной стоимости: volume1/part1/chapter7.md
+          - Рабочий день: volume1/part1/chapter8.md
+          - Норма и масса прибавочной стоимости: volume1/part1/chapter9.md
+      - Производство относительной прибавочной стоимости:
+          - volume1/part4/index.md
+          - Понятие относительной прибавочной стоимости: volume1/part1/chapter10.md
+          - Кооперация: volume1/part1/chapter11.md
+          - Разделение труда и мануфактура: volume1/part1/chapter12.md
+          - Машины и крупная промышленность: volume1/part1/chapter13.md
+      - Производство абсолютной и относительной прибавочной стоимости:
+          - volume1/part5/index.md
+          - Абсолютная и относительная прибавочная стоимость: volume1/part1/chapter14.md
+          - Изменение в величине цены рабочей силы и прибавочной стоимости: volume1/part1/chapter15.md
+          - Различные формулы нормы прибавочной стоимости: volume1/part1/chapter16.md
+      - Заработная плата:
+          - volume1/part6/index.md
+          - Превращение стоимости, соответственно и цены, рабочей силы в заработную плату: volume1/part1/chapter17.md
+          - Повременная плата: volume1/part1/chapter18.md
+          - Поштучная плата: volume1/part1/chapter19.md
+          - Национальные различия в заработной плате: volume1/part1/chapter20.md
+      - Процесс накопления капитала:
+          - volume1/part7/index.md
+          - Простое воспроизводство: volume1/part1/chapter21.md
+          - Превращение прибавочной стоимости в капитал: volume1/part1/chapter22.md
+          - Всеобщий закон капиталистического накопления: volume1/part1/chapter23.md
+          - Так называемое первоначальное накопление: volume1/part1/chapter24.md
+          - Современная теория колонизации: volume1/part1/chapter25.md
+  - Комментарии ко II тому:
+      - volume2/index.md
+      - Метаморфозы капитала и их кругооборот:
+          - volume2/part1/index.md
+          - Кругооборот денежного капитала: volume2/part1/chapter1.md
+          - Кругооборот производительного капитала: volume2/part1/chapter2.md
+          - Кругооборот товарного капитала: volume2/part1/chapter3.md
+          - Три фигуры процесса кругооборота: volume2/part1/chapter4.md
+          - Время обращения: volume2/part1/chapter5.md
+          - Издержки обращения: volume2/part1/chapter6.md
+      - Оборот капитала:
+          - volume2/part2/index.md
+          - Время оборота и число оборотов: volume2/part2/chapter7.md
+          - Основной капитал и оборотный капитал: volume2/part2/chapter8.md
+          - Общий оборот авансированного капитала. Циклы оборотов: volume2/part2/chapter9.md
+          - Теории основного и оборотного капитала. Физиократы и Адам Смит: volume2/part2/chapter10.md
+          - Теории основного и оборотного капитала. Рикардо: volume2/part2/chapter11.md
+          - Рабочий период: volume2/part2/chapter12.md
+          - Время производства: volume2/part2/chapter13.md
+          - Время обращения: volume2/part2/chapter14.md
+          - Влияние времени оборота на величину авансируемого капитала: volume2/part2/chapter15.md
+          - Оборот переменного капитала: volume2/part2/chapter16.md
+          - Обращение прибавочной стоимости: volume2/part2/chapter17.md
+      - Воспроизводство и обращение всего общественного капитала:
+          - volume2/part3/index.md
+          - Введение: volume2/part3/chapter18.md
+          - Прежние представления о предмете: volume2/part3/chapter19.md
+          - Простое воспроизводство: volume2/part3/chapter20.md
+          - Накопление и расширенное воспроизводство: volume2/part3/chapter21.md
+  - Комментарии к III тому:
+      - volume3/index.md
+      - Превращение прибавочной стоимости в прибыль и нормы прибавочной стоимости в норму прибыли:
+          - volume3/part1/index.md
+          - Издержки производства и прибыль: volume3/part1/chapter1.md
+          - Норма прибыли: volume3/part1/chapter2.md
+          - Отношение нормы прибыли к норме прибавочной стоимости: volume3/part1/chapter3.md
+          - Влияние оборота на норму прибыли: volume3/part1/chapter4.md
+          - Экономика в применении постоянного капитала: volume3/part1/chapter5.md
+          - Влияние изменения цен: volume3/part1/chapter6.md
+          - Добавления: volume3/part1/chapter7.md
+      - Превращение прибыли в среднюю прибыль:
+          - volume3/part2/index.md
+          - Различное строение капиталов в разных отраслях производства и вытекающие отсюда различия в нормах прибыли: volume3/part2/chapter8.md
+          - Образование общей нормы прибыли (средней нормы прибыли) и превращение стоимости в цену производства: volume3/part2/chapter9.md
+          - Уравнение общей нормы прибыли посредством конкуренции. Рыночные цены и рыночные стоимости. Добавочная прибыль: volume3/part2/chapter10.md
+          - Влияние общих колебаний заработной платы на цены производства: volume3/part2/chapter11.md
+          - Добавления: volume3/part2/chapter12.md
+      - Закон тенденции нормы прибыли к понижению:
+          - volume3/part3/index.md
+          - Закон как таковой: volume3/part3/chapter13.md
+          - Противодействующие причины: volume3/part3/chapter14.md
+          - Развитие внутренних противоречий закона: volume3/part3/chapter15.md
+      - Превращение товарного и денежного капитала в товарно-торговый и денежно-торговый капитал:
+          - volume3/part4/index.md
+          - Товарно-торговый капитал: volume3/part4/chapter16.md
+          - Торговая прибыль: volume3/part4/chapter17.md
+          - Оборот купеческого капитала. Цены: volume3/part4/chapter18.md
+          - Денежно-торговый капитал: volume3/part4/chapter19.md
+          - Из истории купеческого капитала: volume3/part4/chapter20.md
+      - Распадение прибыли на процент и предпринимательский доход. Капитал, приносящий проценты:
+          - volume3/part5/index.md
+          - Капитал, приносящий проценты: volume3/part5/chapter21.md
+          - Деление прибыли. Ставка процента. «Естественная» норма прибыли: volume3/part5/chapter22.md
+          - Процент и предпринимательский доход: volume3/part5/chapter23.md
+          - Выделение капиталистического отношения в форме капитала, приносящего проценты: volume3/part5/chapter24.md
+          - Кредит и фиктивный капитал: volume3/part5/chapter25.md
+          - Накопление денежного капитала; его влияние на ставку процента: volume3/part5/chapter26.md
+          - Роль кредита в капиталистическом производстве: volume3/part5/chapter27.md
+          - Средства обращения и капитал; воззрения Тука и Фуллартона: volume3/part5/chapter28.md
+          - Составные части банкового капитала: volume3/part5/chapter29.md
+          - Денежный капитал и действительный капитал: volume3/part5/chapter30-32.md
+          - Средства обращения при кредитной системе: volume3/part5/chapter33-35.md
+          - Докапиталистические отношения: volume3/part5/chapter36.md
