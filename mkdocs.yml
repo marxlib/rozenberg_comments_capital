@@ -32,7 +32,8 @@ theme:
 plugins:
   - search:
       lang: ru
-  #- social
+  # - social
+  # - with-pdf
 
 extra:
   generator: false
@@ -64,38 +65,38 @@ nav:
           - Деньги, или обращение товаров: volume1/part1/chapter3.md
       - Превращение денег в капитал:
           - volume1/part2/index.md
-          - Превращение денег в капитал: volume1/part1/chapter4.md
+          - Превращение денег в капитал: volume1/part2/chapter4.md
       - Производство абсолютной прибавочной стоимости:
           - volume1/part3/index.md
-          - Процесс труда и процесс возрастания стоимости: volume1/part1/chapter5.md
-          - Постоянный капитал и переменный капитал: volume1/part1/chapter6.md
-          - Норма прибавочной стоимости: volume1/part1/chapter7.md
-          - Рабочий день: volume1/part1/chapter8.md
-          - Норма и масса прибавочной стоимости: volume1/part1/chapter9.md
+          - Процесс труда и процесс возрастания стоимости: volume1/part3/chapter5.md
+          - Постоянный капитал и переменный капитал: volume1/part3/chapter6.md
+          - Норма прибавочной стоимости: volume1/part3/chapter7.md
+          - Рабочий день: volume1/part3/chapter8.md
+          - Норма и масса прибавочной стоимости: volume1/part3/chapter9.md
       - Производство относительной прибавочной стоимости:
           - volume1/part4/index.md
-          - Понятие относительной прибавочной стоимости: volume1/part1/chapter10.md
-          - Кооперация: volume1/part1/chapter11.md
-          - Разделение труда и мануфактура: volume1/part1/chapter12.md
-          - Машины и крупная промышленность: volume1/part1/chapter13.md
+          - Понятие относительной прибавочной стоимости: volume1/part4/chapter10.md
+          - Кооперация: volume1/part4/chapter11.md
+          - Разделение труда и мануфактура: volume1/part4/chapter12.md
+          - Машины и крупная промышленность: volume1/part4/chapter13.md
       - Производство абсолютной и относительной прибавочной стоимости:
           - volume1/part5/index.md
-          - Абсолютная и относительная прибавочная стоимость: volume1/part1/chapter14.md
-          - Изменение в величине цены рабочей силы и прибавочной стоимости: volume1/part1/chapter15.md
-          - Различные формулы нормы прибавочной стоимости: volume1/part1/chapter16.md
+          - Абсолютная и относительная прибавочная стоимость: volume1/part5/chapter14.md
+          - Изменение в величине цены рабочей силы и прибавочной стоимости: volume1/part5/chapter15.md
+          - Различные формулы нормы прибавочной стоимости: volume1/part5/chapter16.md
       - Заработная плата:
           - volume1/part6/index.md
-          - Превращение стоимости, соответственно и цены, рабочей силы в заработную плату: volume1/part1/chapter17.md
-          - Повременная плата: volume1/part1/chapter18.md
-          - Поштучная плата: volume1/part1/chapter19.md
-          - Национальные различия в заработной плате: volume1/part1/chapter20.md
+          - Превращение стоимости, соответственно и цены, рабочей силы в заработную плату: volume1/part6/chapter17.md
+          - Повременная плата: volume1/part6/chapter18.md
+          - Поштучная плата: volume1/part6/chapter19.md
+          - Национальные различия в заработной плате: volume1/part6/chapter20.md
       - Процесс накопления капитала:
           - volume1/part7/index.md
-          - Простое воспроизводство: volume1/part1/chapter21.md
-          - Превращение прибавочной стоимости в капитал: volume1/part1/chapter22.md
-          - Всеобщий закон капиталистического накопления: volume1/part1/chapter23.md
-          - Так называемое первоначальное накопление: volume1/part1/chapter24.md
-          - Современная теория колонизации: volume1/part1/chapter25.md
+          - Простое воспроизводство: volume1/part7/chapter21.md
+          - Превращение прибавочной стоимости в капитал: volume1/part7/chapter22.md
+          - Всеобщий закон капиталистического накопления: volume1/part7/chapter23.md
+          - Так называемое первоначальное накопление: volume1/part7/chapter24.md
+          - Современная теория колонизации: volume1/part7/chapter25.md
   - Комментарии ко II тому:
       - volume2/index.md
       - Метаморфозы капитала и их кругооборот:
