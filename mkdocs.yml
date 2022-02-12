@@ -34,7 +34,14 @@ plugins:
       lang: ru
       indexing: "sections"
   # - social
-  # - with-pdf
+  # - with-pdf:
+  #    author: Д. И. Розенберг
+  #    copyright: (C) 1932, Д. И. Розенберг, Комментарии к «Капиталу» К. Маркса
+  #    cover: true
+  #    back_cover: true
+  #    cover_title: Комментарии к «Капиталу» К. Маркса
+  #    cover_subtitle: Д. И. Розенберг
+  #    toc_title: Оглавление
 
 extra:
   generator: false
