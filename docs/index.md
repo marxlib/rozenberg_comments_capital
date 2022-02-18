@@ -1,4 +1,5 @@
 ---
+yandex-verification: 020de12492b69f91
 search:
   exclude: true
 ---
