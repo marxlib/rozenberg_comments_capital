@@ -32,7 +32,7 @@ theme:
 plugins:
   - search:
       lang: ru
-      indexing: "sections"
+      # indexing: "sections"
   # - social
   # - with-pdf:
   #    author: Д. И. Розенберг
