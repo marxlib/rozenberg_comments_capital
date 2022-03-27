@@ -7,6 +7,7 @@ repo_name: marxlib/rozenberg_comments_capital
 
 theme:
   name: material
+  custom_dir: overrides
   language: ru
   icon:
     repo: fontawesome/brands/github
