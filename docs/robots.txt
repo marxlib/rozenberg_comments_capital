@@ -1,0 +1,2 @@
+User-Agent: *
+Sitemap: https://rozenberg-comments-capital.pages.dev/sitemap.xml
