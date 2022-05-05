@@ -1,5 +1,5 @@
 User-Agent: *
 Allow: /
+Clean-param: query
 
 Sitemap: https://rozenberg-comments-capital.pages.dev/sitemap.xml
-Clean-param: query
